@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  background-color: rgb(37, 40, 46);
+  color-scheme: light dark;
+  --bg-sidebar: rgb(28, 31, 36);
+}

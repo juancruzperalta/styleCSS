@@ -7,3 +7,37 @@
   color-scheme: light dark;
   --bg-sidebar: rgb(28, 31, 36);
 }
+html,
+body {
+  max-width: 100vw;
+  max-height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 40px 1fr;
+  grid-template-areas:
+    "header header"
+    "sidebar contenido";
+  width: 100vw;
+  height: 100vh;
+  max-width: 100vw;
+}
+.header {
+  grid-area: header;
+  width: 100%;
+  height: 50px;
+  z-index: 10;
+}
+.sidebar {
+  max-width: 400px;
+  margin-top: 50px;
+  grid-area: sidebar;
+}
+
+.content {
+  grid-area: contenido;
+}

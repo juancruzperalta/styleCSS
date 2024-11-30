@@ -72,8 +72,8 @@ const links = [
 ];
 function SideBar() {
   return (
-    <div className="w-64 fixed bg-[var(--bg-sidebar)] h-screen border-r-2 border-slate-100 border-opacity-20 overflow-auto pb-4">
-      <ul className="mt-4">
+    <div className="sidebar w-64 fixed bg-[var(--bg-sidebar)] h-screen border-r-2 border-slate-100 border-opacity-20 overflow-auto pb-4">
+      <ul>
         {links.map((x, index) => (
           <li key={index} className="px-4 py-2 hover:bg-gray-700 rounded">
             <Link to={x.href} className="block text-white">

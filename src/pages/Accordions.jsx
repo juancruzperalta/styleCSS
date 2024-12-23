@@ -29,7 +29,7 @@ export const Accordions = () => {
         {/* Example 2 */}
         <details className="w-[700px] border border-slate-100 border-opacity-80 max-w-[700px] mt-4 rounded-md bg-gray-800 p-1">
           <summary className="font-semibold">Example two</summary>
-          <p className="m-2">
+          <p className="m-1">
             Lorem ipsum dolor sit amet consectetur...
             <details className="w-full border border-slate-100 border-opacity-80 max-w-[700px] rounded-md bg-gray-800 p-1">
               <summary className="font-semibold">Example two</summary>

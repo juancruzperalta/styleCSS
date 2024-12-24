@@ -1,14 +1,35 @@
+import { CopyTheText } from "./helpers/CopyTheText";
+
 export const Accordions = () => {
-  const codeCopy = () => {
-    const copyText = document.getElementById("code").value;
-    const textCopyInfo = document.getElementById("textCopy");
-    navigator.clipboard.writeText(copyText).then(() => {
-      textCopyInfo.classList.remove("hidden");
-    });
-    setTimeout(() => {
-      textCopyInfo.classList.add("hidden");
-    }, 1000);
-  };
+  const codeText = `<style>
+  details{
+    max-width: 700px;
+    border: 1px solid #f1f5f9;
+    border-opacity: 80%;
+    margin-top: .5rem;
+    border-radius: .25rem;
+    background-color: #1f2937;
+  }
+   summary{
+    font-weight: 700;
+     padding: 0.65rem .7rem;
+     color:white;
+   }
+   p{
+    padding: 0.1rem 1.5rem; 
+   color: #d1d5db;
+   }
+
+    </style>
+</head>
+  <details open>
+    <summary>Title example</summary>
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident
+      magnam veniam eaque excepturi. Placeat ut asperiores nemo la..
+    </p>
+  </details>
+  `;
 
   return (
     <section className="flex flex-col items-center mt-8">
@@ -38,27 +59,7 @@ export const Accordions = () => {
           </p>
         </details>
       </div>
-      <div className="w-[100%] max-w-[700px]  h-full relative flex flex-col">
-        <textarea
-          type="text"
-          value={`<details 
-    className="w-[700px] border border-slate-100 border-opacity-80 max-w-[700px] mt-4 rounded-md bg-gray-800 p-1" open>
-    <summary className="font-semibold">Title example</summary>
-    <p className="m-4">Into your text...</p>
-</details>`}
-          id="code"
-          className="bg-slate-900 h-40 w-[100%] max-w-[700px] border-slate-100 border-[0.5px] border-opacity-40 rounded-md p-2  resize-none overflow-hidden outline-none"
-        />
-        <button
-          className="absolute right-0 bottom-0 bg-slate-800 p-1 rounded-sm hover:bg-slate-500"
-          onClick={codeCopy}
-        >
-          Copy Text
-        </button>
-      </div>
-      <p className="text-center hidden pt-2" id="textCopy">
-        ¡Texto copiado al portapapeles!
-      </p>
+      <CopyTheText codeText={codeText} />
     </section>
   );
 };

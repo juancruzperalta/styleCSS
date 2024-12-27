@@ -32,13 +32,13 @@ export const Accordions = () => {
   `;
 
   return (
-    <section className="flex flex-col items-center mt-8">
+    <section className="flex flex-col items-center mt-8 max-w-[700px]  sm:max-w-[500px]">
       <div className="mb-8">
         <h2 className="text-yellow-300 font-bold text-3xl mb-4">Accordions</h2>
         <h4 className="text-xl">How to use the accordion </h4>
 
         <details
-          className="w-[700px] border border-slate-100 border-opacity-80 max-w-[700px] mt-4 rounded-md bg-gray-800 p-1"
+          className="w-[700px] border border-slate-100 border-opacity-80 max-w-[700px]  sm:max-w-[500px] mt-4 rounded-md bg-gray-800 p-1"
           open
         >
           <summary className="font-semibold">Title example</summary>
@@ -48,7 +48,7 @@ export const Accordions = () => {
           </p>
         </details>
         {/* Example 2 */}
-        <details className="w-[700px] border border-slate-100 border-opacity-80 max-w-[700px] mt-4 rounded-md bg-gray-800 p-1">
+        <details className="w-[700px] border border-slate-100 border-opacity-80 max-w-[700px] sm:max-w-[500px] mt-4 rounded-md bg-gray-800 p-1">
           <summary className="font-semibold">Example two</summary>
           <p className="m-1">
             Lorem ipsum dolor sit amet consectetur...

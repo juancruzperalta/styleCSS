@@ -59,8 +59,8 @@ export const DropdownMenu = () => {
 `;
 
   return (
-    <section className="flex flex-col  items-center mt-8">
-      <div className="mb-8 max-w-[700px]">
+    <section className="flex flex-col   mt-8  sm:max-w-[500px]">
+      <div className="mb-8 max-w-[700px] items-center">
         <h2 className="text-yellow-300 font-bold text-3xl mb-4">
           Dropdown Menu
         </h2>
@@ -69,7 +69,7 @@ export const DropdownMenu = () => {
           has been open.{" "}
         </h4>
       </div>
-      <article className="flex items-center justify-between w-full h-full p-0 m-0 max-w-[700px]">
+      <article className="flex items-center justify-between w-full h-full p-0 m-0 max-w-[700px]  sm:max-w-[500px]">
         <div className="flex justify-around ">
           <div className="p-2 flex items-center justify-center flex-col group">
             <button className="bg-green-600 p-2 rounded-sm w-[100%] hover:bg-green-500">

@@ -1,6 +1,6 @@
 function Header() {
   return (
-    <header className="header p-3 pl-4 pr-4 border-b-2 border-slate-100 border-opacity-20  bg-[var(--bg-sidebar)]">
+    <header className="header p-3 pl-4 pr-4 border-b-2 border-slate-100 border-opacity-20  bg-[var(--bg-sidebar)] ">
       <nav className="flex justify-between">
         <div className="flex gap-2">
           <li className="list-none w-4 h-4 fill-slate-100">

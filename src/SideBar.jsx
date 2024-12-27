@@ -10,8 +10,12 @@ const links = [
     href: "/dropdown",
   },
   {
-    name: "Navigation bars",
-    href: "/navigationBars",
+    name: "Vertical NavBar",
+    href: "/verticalNav",
+  },
+  {
+    name: "Horizontal NavBar",
+    href: "/horizontalNav",
   },
   {
     name: "Tabs",

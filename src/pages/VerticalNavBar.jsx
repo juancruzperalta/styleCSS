@@ -26,7 +26,7 @@ export const VerticalNavBar = () => {
     }
   </style>
 <div>
-<nav>
+  <nav>
     <li class="active navigation" onClick={activeObject}>
       <a href="#home">Home</a>
     </li>
@@ -51,8 +51,7 @@ export const VerticalNavBar = () => {
       item.classList.add("active");
       });
   });
-</script>
-`;
+</script>`;
   const activeObject = (e) => {
     const objectClick = document.querySelectorAll(".navigation");
     objectClick.forEach((el) => el.classList.remove("active"));
@@ -68,7 +67,7 @@ export const VerticalNavBar = () => {
   };
 
   return (
-    <section className="flex flex-col mt-8 lg:max-w-[700px] md:max-w-[500px] max-w-[300px]">
+    <section className="flex flex-col mt-8 lg:max-w-[700px] md:max-w-[500px] max-w-[300px] xl:max-w-[900px] 2xl:max-w-[1200px] w-full">
       <style>
         {`
           .navigation.active {
@@ -76,7 +75,7 @@ export const VerticalNavBar = () => {
           }
         `}
       </style>
-      <div className="mb-8 lg:max-w-[700px] md:max-w-[500px] max-w-[300px]">
+      <div className="mb-8 lg:max-w-[700px] md:max-w-[500px] max-w-[300px] xl:max-w-[900px] 2xl:max-w-[1200px] w-full">
         <h2 className="text-yellow-300 font-bold text-3xl mb-4">
           Navigation Bars
         </h2>
@@ -91,7 +90,7 @@ export const VerticalNavBar = () => {
           <h3 className="text-yellow-300 font-bold text-2xl mb-4">
             Vertical Nav
           </h3>
-          <article className="flex items-center justify-between w-full h-full p-0 m-0 lg:max-w-[700px] md:max-w-[500px] max-w-[300px]">
+          <article className="flex items-center justify-between w-full h-full p-0 m-0 lg:max-w-[700px] md:max-w-[500px] max-w-[300px] xl:max-w-[900px] 2xl:max-w-[1200px] w-full">
             <div>
               <nav className="flex flex-col w-60">
                 <li

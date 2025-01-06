@@ -59,17 +59,17 @@ export const DropdownMenu = () => {
 `;
 
   return (
-    <section className="flex flex-col   mt-8  sm:max-w-[500px]">
-      <div className="mb-8 max-w-[700px] items-center">
+    <section className="flex flex-col w-full  mt-8  lg:max-w-[700px] md:max-w-[500px] max-w-[300px] xl:max-w-[900px] 2xl:max-w-[1200px]">
+      <div className="mb-8 w-full lg:max-w-[700px] md:max-w-[500px] max-w-[300px] xl:max-w-[900px] 2xl:max-w-[1200px] items-center">
         <h2 className="text-yellow-300 font-bold text-3xl mb-4">
           Dropdown Menu
         </h2>
         <h4 className="text-xl">
           How to use the dropdown menu, click in the button green and the menu
-          has been open.{" "}
+          has been open. The components is already to copy in the footer.
         </h4>
       </div>
-      <article className="flex items-center justify-between w-full h-full p-0 m-0 max-w-[700px]  sm:max-w-[500px]">
+      <article className="flex items-center justify-between w-full h-full p-0 m-0 lg:max-w-[700px] md:max-w-[500px] max-w-[300px] xl:max-w-[900px] 2xl:max-w-[1200px] ">
         <div className="flex justify-around ">
           <div className="p-2 flex items-center justify-center flex-col group">
             <button className="bg-green-600 p-2 rounded-sm w-[100%] hover:bg-green-500">

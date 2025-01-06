@@ -11,18 +11,18 @@ export const CopyTheText = ({ codeText }) => {
     }, 1000);
   };
   return (
-    <div className="w-[100%] max-w-[700px]  h-full relative flex flex-col">
-      <pre className="bg-gray-900 text-white p-4 rounded w-full max-w-[700px] overflow-x-auto whitespace-pre mt-4">
+    <div className="w-[100%] lg:max-w-[700px] md:max-w-[500px] max-w-[300px] xl:max-w-[900px] 2xl:max-w-[1200px] h-full relative flex flex-col">
+      <pre className="bg-gray-900 text-white p-4 rounded w-full lg:max-w-[700px] md:max-w-[500px] max-w-[300px] xl:max-w-[900px] 2xl:max-w-[1200px] overflow-x-auto whitespace-pre mt-4 mb-4">
         <code>{codeText}</code>
       </pre>
       <button
-        className="absolute right-0 bottom-0 bg-slate-800 p-1 rounded-sm hover:bg-slate-500"
+        className="absolute  right-0 left-0 bottom-0 bg-slate-700 p-1 rounded-sm hover:bg-slate-500"
         onClick={codeCopy}
       >
         Copy Text
       </button>
       <p
-        className="text-center hidden pt-2 absolute bottom-2 right-0 left-0"
+        className="text-center hidden  absolute bottom-8 right-0 left-0"
         id="textCopy"
       >
         ¡Texto copiado al portapapeles!

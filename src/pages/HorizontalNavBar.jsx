@@ -74,7 +74,7 @@ export const HorizontalNavBar = () => {
   };
 
   return (
-    <section className="flex flex-col mt-8  sm:max-w-[500px]">
+    <section className="flex flex-col mt-8  lg:max-w-[700px] md:max-w-[500px] max-w-[300px] xl:max-w-[900px] 2xl:max-w-[1200px] w-full">
       <style>
         {`
           .navigation.active {
@@ -82,7 +82,7 @@ export const HorizontalNavBar = () => {
           }
         `}
       </style>
-      <div className="mb-8 max-w-[700px]  sm:max-w-[500px]">
+      <div className="mb-8 lg:max-w-[700px] md:max-w-[500px] max-w-[300px] xl:max-w-[900px] 2xl:max-w-[1200px] w-full">
         <h2 className="text-yellow-300 font-bold text-3xl mb-4">
           Navigation Bars
         </h2>
@@ -96,7 +96,7 @@ export const HorizontalNavBar = () => {
           <h3 className="text-yellow-300 font-bold text-2xl mb-4">
             Horizontal Nav
           </h3>
-          <article className="flex items-center bg-slate-200 justify-between w-full h-full p-0 m-0 max-w-[700px]  sm:max-w-[500px]">
+          <article className="flex items-center bg-slate-200 justify-between w-full h-full p-0 m-0 lg:max-w-[700px] md:max-w-[500px] max-w-[300px] xl:max-w-[900px] 2xl:max-w-[1200px] w-full">
             <div className="w-full">
               <nav className="flex w-full h-full items-center justify-between">
                 <div className="flex">

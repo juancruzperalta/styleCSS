@@ -3,6 +3,8 @@ import { DropdownMenu } from "./pages/DropdownMenu.jsx";
 import { VerticalNavBar } from "./pages/VerticalNavBar.jsx";
 import { HorizontalNavBar } from "./pages/HorizontalNavBar.jsx";
 import { Tabs } from "./pages/Tabs.jsx";
+import { Buttons } from "./pages/Buttons.jsx";
+import { Forms } from "./pages/Forms.jsx";
 
 const routes = [
   { path: "/accordions", element: <Accordions /> },
@@ -10,6 +12,8 @@ const routes = [
   { path: "/verticalNav", element: <VerticalNavBar /> },
   { path: "/horizontalNav", element: <HorizontalNavBar /> },
   { path: "/tabs", element: <Tabs /> },
+  { path: "/buttons", element: <Buttons /> },
+  { path: "/forms", element: <Forms /> },
 ];
 
 export default routes;

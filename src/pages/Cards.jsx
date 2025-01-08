@@ -61,7 +61,10 @@ background-color: black;
     <section className="flex flex-col mt-8  lg:max-w-[700px] md:max-w-[500px] max-w-[300px] xl:max-w-[900px] 2xl:max-w-[1200px] w-full">
       <div className="mb-8">
         <h2 className="text-yellow-300 font-bold text-3xl mb-4">Cards</h2>
-        <h4 className="text-xl">----</h4>
+        <h4 className="text-xl">
+          The use of a card is a beautiful in your design of page. You can use a
+          "information of human", animals, also presentation a project, etc...
+        </h4>
         <article className="flex items-center justify-between w-full h-full p-0 m-0 lg:max-w-[700px] md:max-w-[500px] max-w-[300px] xl:max-w-[900px] 2xl:max-w-[1200px] ">
           <div className="flex justify-around w-full mt-4">
             <div>

@@ -7,6 +7,7 @@ import { Buttons } from "./pages/Buttons.jsx";
 import { Forms } from "./pages/Forms.jsx";
 import { Cards } from "./pages/Cards.jsx";
 import { Alerts } from "./pages/Alerts.jsx";
+import { Grids } from "./pages/Grids.jsx";
 
 const routes = [
   { path: "/accordions", element: <Accordions /> },
@@ -18,6 +19,7 @@ const routes = [
   { path: "/forms", element: <Forms /> },
   { path: "/cards", element: <Cards /> },
   { path: "/alerts", element: <Alerts /> },
+  { path: "/grids", element: <Grids /> },
 ];
 
 export default routes;

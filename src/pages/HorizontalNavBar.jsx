@@ -74,7 +74,7 @@ export const HorizontalNavBar = () => {
   };
 
   return (
-    <section className="flex flex-col mt-8  lg:max-w-[700px] md:max-w-[500px] max-w-[300px] xl:max-w-[900px] 2xl:max-w-[1200px] w-full">
+    <section className="homeSection">
       <style>
         {`
           .navigation.active {
@@ -82,55 +82,57 @@ export const HorizontalNavBar = () => {
           }
         `}
       </style>
-      <div className="mb-8 lg:max-w-[700px] md:max-w-[500px] max-w-[300px] xl:max-w-[900px] 2xl:max-w-[1200px] w-full">
-        <h2 className="text-yellow-300 font-bold text-3xl mb-4">
-          Navigation Bars
-        </h2>
-        <h4 className="text-xl">
-          How to use the navigation bars, click in the ancord for go to this
-          page. Click in the bars to desployment the menu for more pages.
-        </h4>
-      </div>
-      <div className="flex gap-12 items-center">
-        <div className="flex flex-col w-full">
-          <h3 className="text-yellow-300 font-bold text-2xl mb-4">
-            Horizontal Nav
-          </h3>
-          <article className="flex items-center bg-slate-200 justify-between w-full h-full p-0 m-0 lg:max-w-[700px] md:max-w-[500px] max-w-[300px] xl:max-w-[900px] 2xl:max-w-[1200px] w-full">
-            <div className="w-full">
-              <nav className="flex w-full h-full items-center justify-between">
-                <div className="flex">
-                  <li
-                    className="navigation list-none  p-2 text-slate-900 hover:bg-gray-400 active cursor-pointer "
-                    onClick={activeObject}
-                  >
-                    <a href="#home">Home</a>
-                  </li>
-                  <li
-                    className="navigation list-none  p-2 text-slate-900 hover:bg-gray-400  cursor-pointer"
-                    onClick={activeObject}
-                  >
-                    <a href="#about">About</a>
-                  </li>
-                  <li
-                    className="navigation list-none  p-2 text-slate-900 hover:bg-gray-400   cursor-pointer"
-                    onClick={activeObject}
-                  >
-                    <a href="#profile">Profile</a>
-                  </li>
-                </div>
-                <li
-                  className="navigation list-none  p-2 text-slate-900 hover:bg-gray-400   cursor-pointer "
-                  onClick={activeObject}
-                >
-                  <a href="#contact">Contact</a>
-                </li>
-              </nav>
-            </div>
-          </article>
+      <div className="mb-8 border border-gray-600 rounded-lg p-6 bg-gray-800">
+        <div className="mb-8 ] w-full">
+          <h2 className="text-yellow-300 font-bold text-3xl mb-4 border-b-2 border-gray-600 pb-2">
+            Navigation Bars
+          </h2>
+          <h4 className="text-xl">
+            How to use the navigation bars, click in the ancord for go to this
+            page. Click in the bars to desployment the menu for more pages.
+          </h4>
         </div>
+        <div className="flex gap-12 items-center">
+          <div className="flex flex-col w-full">
+            <h3 className="text-yellow-300 font-bold text-2xl mb-4">
+              Horizontal Nav
+            </h3>
+            <article className="flex items-center bg-slate-200 justify-between w-full h-full p-0 m-0 ">
+              <div className="w-full">
+                <nav className="flex w-full h-full items-center justify-between">
+                  <div className="flex">
+                    <li
+                      className="navigation list-none  p-2 text-slate-900 hover:bg-gray-400 active cursor-pointer "
+                      onClick={activeObject}
+                    >
+                      <a href="#home">Home</a>
+                    </li>
+                    <li
+                      className="navigation list-none  p-2 text-slate-900 hover:bg-gray-400  cursor-pointer"
+                      onClick={activeObject}
+                    >
+                      <a href="#about">About</a>
+                    </li>
+                    <li
+                      className="navigation list-none  p-2 text-slate-900 hover:bg-gray-400   cursor-pointer"
+                      onClick={activeObject}
+                    >
+                      <a href="#profile">Profile</a>
+                    </li>
+                  </div>
+                  <li
+                    className="navigation list-none  p-2 text-slate-900 hover:bg-gray-400   cursor-pointer "
+                    onClick={activeObject}
+                  >
+                    <a href="#contact">Contact</a>
+                  </li>
+                </nav>
+              </div>
+            </article>
+          </div>
+        </div>
+        <CopyTheText codeText={codeText} />
       </div>
-      <CopyTheText codeText={codeText} />
     </section>
   );
 };

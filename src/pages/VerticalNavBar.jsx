@@ -67,7 +67,7 @@ export const VerticalNavBar = () => {
   };
 
   return (
-    <section className="flex flex-col mt-8 lg:max-w-[700px] md:max-w-[500px] max-w-[300px] xl:max-w-[900px] 2xl:max-w-[1200px] w-full">
+    <section className="homeSection">
       <style>
         {`
           .navigation.active {
@@ -75,54 +75,56 @@ export const VerticalNavBar = () => {
           }
         `}
       </style>
-      <div className="mb-8 lg:max-w-[700px] md:max-w-[500px] max-w-[300px] xl:max-w-[900px] 2xl:max-w-[1200px] w-full">
-        <h2 className="text-yellow-300 font-bold text-3xl mb-4">
-          Navigation Bars
-        </h2>
-        <h4 className="text-xl">
-          How to build vertical navbar, styled a <a></a> and the used ACTIVE to
-          show the active link in this moment. The styled and script used is
-          very easy and understabled
-        </h4>
-      </div>
-      <div className="flex gap-12 items-center">
-        <div className="flex flex-col">
-          <h3 className="text-yellow-300 font-bold text-2xl mb-4">
-            Vertical Nav
-          </h3>
-          <article className="flex items-center justify-between w-full h-full p-0 m-0 lg:max-w-[700px] md:max-w-[500px] max-w-[300px] xl:max-w-[900px] 2xl:max-w-[1200px] w-full">
-            <div>
-              <nav className="flex flex-col w-60">
-                <li
-                  className="list-none bg-slate-200 p-2 text-slate-900 hover:bg-gray-400 navigation active cursor-pointer"
-                  onClick={activeObject}
-                >
-                  <a href="#home">Home</a>
-                </li>
-                <li
-                  className="list-none bg-slate-200 p-2 text-slate-900 hover:bg-gray-400  navigation cursor-pointer"
-                  onClick={activeObject}
-                >
-                  <a href="#about">About</a>
-                </li>
-                <li
-                  className="list-none bg-slate-200 p-2 text-slate-900 hover:bg-gray-400  navigation cursor-pointer"
-                  onClick={activeObject}
-                >
-                  <a href="#profile">Profile</a>
-                </li>
-                <li
-                  className="list-none bg-slate-200 p-2 text-slate-900 hover:bg-gray-400  navigation cursor-pointer"
-                  onClick={activeObject}
-                >
-                  <a href="#contact">Contact</a>
-                </li>
-              </nav>
-            </div>
-          </article>
+      <div className="mb-8 border border-gray-600 rounded-lg p-6 bg-gray-800">
+        <div className="mb-8  w-full">
+          <h2 className="text-yellow-300 font-bold text-3xl mb-4 border-b-2 border-gray-600 pb-2">
+            Navigation Bars
+          </h2>
+          <h4 className="text-xl">
+            How to build vertical navbar, styled a <a></a> and the used ACTIVE
+            to show the active link in this moment. The styled and script used
+            is very easy and understabled
+          </h4>
         </div>
+        <div className="flex gap-12 items-center">
+          <div className="flex flex-col">
+            <h3 className="text-yellow-300 font-bold text-2xl mb-4">
+              Vertical Nav
+            </h3>
+            <article className="flex items-center justify-between w-full h-full p-0 m-0 l">
+              <div>
+                <nav className="flex flex-col w-60">
+                  <li
+                    className="list-none bg-slate-200 p-2 text-slate-900 hover:bg-gray-400 navigation active cursor-pointer"
+                    onClick={activeObject}
+                  >
+                    <a href="#home">Home</a>
+                  </li>
+                  <li
+                    className="list-none bg-slate-200 p-2 text-slate-900 hover:bg-gray-400  navigation cursor-pointer"
+                    onClick={activeObject}
+                  >
+                    <a href="#about">About</a>
+                  </li>
+                  <li
+                    className="list-none bg-slate-200 p-2 text-slate-900 hover:bg-gray-400  navigation cursor-pointer"
+                    onClick={activeObject}
+                  >
+                    <a href="#profile">Profile</a>
+                  </li>
+                  <li
+                    className="list-none bg-slate-200 p-2 text-slate-900 hover:bg-gray-400  navigation cursor-pointer"
+                    onClick={activeObject}
+                  >
+                    <a href="#contact">Contact</a>
+                  </li>
+                </nav>
+              </div>
+            </article>
+          </div>
+        </div>
+        <CopyTheText codeText={codeText} />
       </div>
-      <CopyTheText codeText={codeText} />
     </section>
   );
 };

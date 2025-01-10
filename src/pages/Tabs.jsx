@@ -45,14 +45,16 @@ export const Tabs = () => {
   </table>
   `;
   return (
-    <section className="flex flex-col mt-8  lg:max-w-[700px] md:max-w-[500px] max-w-[300px] xl:max-w-[900px] 2xl:max-w-[1200px] w-full">
-      <div className="mb-8">
-        <h2 className="text-yellow-300 font-bold text-3xl mb-4">Tabs</h2>
+    <section className="homeSection">
+      <div className="mb-8 border border-gray-600 rounded-lg p-6 bg-gray-800">
+        <h2 className="text-yellow-300 font-bold text-3xl mb-4 border-b-2 border-gray-600 pb-2">
+          Tabs
+        </h2>
         <h4 className="text-xl">
           This is a demonstration of how tabs can be used. The components is
           already to copy in the footer.
         </h4>
-        <article className="flex items-center justify-between w-full h-full p-0 m-0 lg:max-w-[700px] md:max-w-[500px] max-w-[300px] xl:max-w-[900px] 2xl:max-w-[1200px] ">
+        <article className="flex items-center justify-between w-full h-full p-0 m-0  ">
           <div className="flex w-full mt-4 gap-8">
             <div className="flex flex-col justify-center h-full w-full">
               <h3 className="text-yellow-300 font-bold text-xl">Example 1</h3>

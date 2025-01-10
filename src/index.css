@@ -24,7 +24,7 @@ body {
 }
 .container {
   display: grid;
-  grid-template-columns: 240px 1fr;
+  grid-template-columns: 160px 1fr;
   grid-template-rows: 40px 1fr;
   grid-template-areas:
     "header header"
@@ -43,7 +43,7 @@ body {
   z-index: 10;
 }
 .sidebar {
-  width: 240px;
+  width: 160px;
   height: 100%;
   top: 50px;
   left: 0;
@@ -61,6 +61,16 @@ body {
   justify-content: center;
   align-items: center;
   height: 100%;
+  padding: 2.3rem;
+  padding-top: 0.7rem;
+  padding-bottom: 0.2rem;
+}
+.homeSection {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  margin-bottom: 0;
+  width: 100%;
 }
 @media (min-width: 480px) {
   .sidebar {
@@ -72,25 +82,33 @@ body {
 }
 @media (min-width: 768px) {
   .sidebar {
+    width: 190px;
+  }
+  .container {
+    grid-template-columns: 190px 1fr;
+  }
+}
+@media (min-width: 1024px) {
+  .sidebar {
     width: 220px;
   }
   .container {
     grid-template-columns: 220px 1fr;
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
+  .sidebar {
+    width: 240px;
+  }
+  .container {
+    grid-template-columns: 240px 1fr;
+  }
+}
+@media (min-width: 1536px) {
   .sidebar {
     width: 300px;
   }
   .container {
     grid-template-columns: 300px 1fr;
-  }
-}
-@media (min-width: 1444px) {
-  .sidebar {
-    width: 350px;
-  }
-  .container {
-    grid-template-columns: 350px 1fr;
   }
 }

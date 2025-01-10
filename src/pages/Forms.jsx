@@ -77,15 +77,17 @@ export const Forms = () => {
  </div>
   `;
   return (
-    <section className="flex flex-col mt-8  lg:max-w-[700px] md:max-w-[500px] max-w-[300px] xl:max-w-[900px] 2xl:max-w-[1200px] w-full">
-      <div className="mb-8">
-        <h2 className="text-yellow-300 font-bold text-3xl mb-4">Forms</h2>
+    <section className="homeSection">
+      <div className="mb-8 border border-gray-600 rounded-lg p-6 bg-gray-800">
+        <h2 className="text-yellow-300 font-bold text-3xl mb-4 border-b-2 border-gray-600 pb-2">
+          Forms
+        </h2>
         <h4 className="text-xl">
           {" "}
           This is a demostration how to used a input. The components is already
           to copy in the footer.
         </h4>
-        <article className="flex items-center justify-between w-full h-full p-0 m-0 lg:max-w-[700px] md:max-w-[500px] max-w-[300px] xl:max-w-[900px] 2xl:max-w-[1200px] ">
+        <article className="flex items-center justify-between w-full h-full p-0 m-0 ">
           <div className="flex flex-col w-full mt-4 gap-8">
             <div className="flex flex-col justify-between h-full w-full">
               <h3 className="text-yellow-300 font-bold text-2xl">Input</h3>
@@ -105,7 +107,7 @@ export const Forms = () => {
                   className="w-[260px] outline-none p-1 h-8 rounded-sm"
                 />
               </form>
-              <details className="border border-slate-100 border-opacity-80 lg:max-w-[700px] md:max-w-[500px] max-w-[300px] xl:max-w-[900px] w-full 2xl:max-w-[1200px] mt-4 rounded-md bg-gray-800 p-1 transition ease-in-out">
+              <details className="border border-slate-100 border-opacity-80 w-full mt-4 rounded-md bg-gray-800 p-1 transition ease-in-out">
                 <summary className="font-semibold">Copy the Code</summary>
                 <CopyTheText codeText={codeText} />
               </details>
@@ -128,7 +130,7 @@ export const Forms = () => {
                   }}
                 />
               </form>
-              <details className="border border-slate-100 border-opacity-80 lg:max-w-[700px] md:max-w-[500px] max-w-[300px] xl:max-w-[900px] w-full 2xl:max-w-[1200px] mt-4 rounded-md bg-gray-800 p-1 transition ease-in-out">
+              <details className="border border-slate-100 border-opacity-80  mt-4 rounded-md bg-gray-800 p-1 transition ease-in-out">
                 <summary className="font-semibold">Copy the Code</summary>
                 <CopyTheText codeText={codeTextSearch} />
               </details>
@@ -152,7 +154,7 @@ export const Forms = () => {
                   </select>
                 </form>
               </div>
-              <details className="border border-slate-100 border-opacity-80 lg:max-w-[700px] md:max-w-[500px] max-w-[300px] xl:max-w-[900px] w-full 2xl:max-w-[1200px] mt-4 rounded-md bg-gray-800 p-1 transition ease-in-out">
+              <details className="border border-slate-100 border-opacity-80 mt-4 rounded-md bg-gray-800 p-1 transition ease-in-out">
                 <summary className="font-semibold">Copy the Code</summary>
                 <CopyTheText codeText={codeTextSelect} />
               </details>

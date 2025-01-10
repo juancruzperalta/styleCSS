@@ -32,16 +32,18 @@ export const Accordions = () => {
   `;
 
   return (
-    <section className="flex flex-col items-center mt-8 lg:max-w-[700px] md:max-w-[500px] max-w-[300px] xl:max-w-[900px] 2xl:max-w-[1200px] w-full">
-      <div className="mb-8">
-        <h2 className="text-yellow-300 font-bold text-3xl mb-4">Accordions</h2>
+    <section className="homeSection">
+      <div className="mb-8 border border-gray-600 rounded-lg p-6 bg-gray-800">
+        <h2 className="text-yellow-300 font-bold text-3xl mb-4 border-b-2 border-gray-600 pb-2">
+          Accordions
+        </h2>
         <h4 className="text-xl">
           This is a demonstration of how accordions can be used, in whatever
           style you want. The components is already to copy in the footer.
         </h4>
 
         <details
-          className="border border-slate-100 border-opacity-80 lg:max-w-[700px] md:max-w-[500px] max-w-[300px] xl:max-w-[900px] w-full 2xl:max-w-[1200px] mt-4 rounded-md bg-gray-800 p-1"
+          className="border border-slate-100 border-opacity-80 w-full mt-4 rounded-md bg-gray-800 p-1"
           open
         >
           <summary className="font-semibold">Title example</summary>
@@ -51,18 +53,18 @@ export const Accordions = () => {
           </p>
         </details>
         {/* Example 2 */}
-        <details className=" border border-slate-100 border-opacity-80 lg:max-w-[700px] md:max-w-[500px] max-w-[300px] xl:max-w-[900px] w-full 2xl:max-w-[1200px] mt-4 rounded-md bg-gray-800 p-1">
+        <details className=" border border-slate-100 border-opacity-80 w-full mt-4 rounded-md bg-gray-800 p-1">
           <summary className="font-semibold">Example two</summary>
           <p className="m-1">
             Lorem ipsum dolor sit amet consectetur...
-            <details className="border border-slate-100 border-opacity-80 lg:max-w-[700px] md:max-w-[500px] max-w-[300px] xl:max-w-[900px] 2xl:max-w-[1200px] rounded-md bg-gray-800 p-1 w-full">
+            <details className="border border-slate-100 border-opacity-80 w-full rounded-md bg-gray-800 p-1 ">
               <summary className="font-semibold">Example two</summary>
               <p className="m-2">Lorem ipsum dolor sit amet consectetur...</p>
             </details>
           </p>
         </details>
+        <CopyTheText codeText={codeText} />
       </div>
-      <CopyTheText codeText={codeText} />
     </section>
   );
 };

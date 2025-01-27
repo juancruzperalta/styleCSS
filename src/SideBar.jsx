@@ -42,12 +42,12 @@ const links = [
     href: "/grids",
   },
   {
-    name: "Containers",
-    href: "/containers",
+    name: "Box Model",
+    href: "/box-model",
   },
   {
-    name: "Rows and Columns",
-    href: "/rows-and-columns",
+    name: "Z-index",
+    href: "/z-index",
   },
   {
     name: "Spacing and margin",

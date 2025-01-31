@@ -43,7 +43,7 @@ export const Accordions = () => {
         </h4>
 
         <details
-          className="border border-slate-100 border-opacity-80 w-full mt-4 rounded-md bg-gray-800 p-1"
+          className="border-2 border-gray-600 w-full mt-4 rounded-lg bg-gray-900 p-2"
           open
         >
           <summary className="font-semibold">Title example</summary>
@@ -52,12 +52,11 @@ export const Accordions = () => {
             magnam veniam eaque excepturi. Placeat ut asperiores nemo la..
           </p>
         </details>
-        {/* Example 2 */}
-        <details className=" border border-slate-100 border-opacity-80 w-full mt-4 rounded-md bg-gray-800 p-1">
+        <details className="border-2 border-gray-600 w-full mt-4 rounded-lg bg-gray-900 p-2">
           <summary className="font-semibold">Example two</summary>
           <p className="m-1">
             Lorem ipsum dolor sit amet consectetur...
-            <details className="border border-slate-100 border-opacity-80 w-full rounded-md bg-gray-800 p-1 ">
+            <details className="border-2 border-gray-600 w-full mt-4 rounded-lg bg-gray-900 p-2 ">
               <summary className="font-semibold">Example two</summary>
               <p className="m-2">Lorem ipsum dolor sit amet consectetur...</p>
             </details>

@@ -99,7 +99,7 @@ export const Forms = () => {
                 <input
                   type="text"
                   placeholder="FirstName"
-                  className="w-[260px] outline-none p-1 h-8 rounded-sm"
+                  className="w-[260px] outline-none p-1 h-8 rounded-sm "
                 />
                 <input
                   type="text"
@@ -107,7 +107,7 @@ export const Forms = () => {
                   className="w-[260px] outline-none p-1 h-8 rounded-sm"
                 />
               </form>
-              <details className="border border-slate-100 border-opacity-80 w-full mt-4 rounded-md bg-gray-800 p-1 transition ease-in-out">
+              <details className="border-2 w-full mt-4 rounded-lg bg-gray-900 p-2">
                 <summary className="font-semibold">Copy the Code</summary>
                 <CopyTheText codeText={codeText} />
               </details>
@@ -130,7 +130,7 @@ export const Forms = () => {
                   }}
                 />
               </form>
-              <details className="border border-slate-100 border-opacity-80  mt-4 rounded-md bg-gray-800 p-1 transition ease-in-out">
+              <details className="border-2 w-full mt-4 rounded-lg bg-gray-900 p-2">
                 <summary className="font-semibold">Copy the Code</summary>
                 <CopyTheText codeText={codeTextSearch} />
               </details>
@@ -154,7 +154,7 @@ export const Forms = () => {
                   </select>
                 </form>
               </div>
-              <details className="border border-slate-100 border-opacity-80 mt-4 rounded-md bg-gray-800 p-1 transition ease-in-out">
+              <details className="border-2 w-full mt-4 rounded-lg bg-gray-900 p-2">
                 <summary className="font-semibold">Copy the Code</summary>
                 <CopyTheText codeText={codeTextSelect} />
               </details>

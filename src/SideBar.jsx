@@ -50,8 +50,8 @@ const links = [
     href: "/z-index",
   },
   {
-    name: "Spacing and margin",
-    href: "/spacing-and-margin",
+    name: "Display",
+    href: "/display",
   },
   {
     name: "Transitions",

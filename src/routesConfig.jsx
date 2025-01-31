@@ -11,6 +11,7 @@ import { Grids } from "./pages/Grids.jsx";
 import { Home } from "./pages/Home.jsx";
 import { BoxModel } from "./pages/BoxModel.jsx";
 import { Zindex } from "./pages/Zindex.jsx";
+import { Display } from "./pages/Display.jsx";
 
 const routes = [
   { path: "/", element: <Home /> },
@@ -26,6 +27,7 @@ const routes = [
   { path: "/grids", element: <Grids /> },
   { path: "/box-model", element: <BoxModel /> },
   { path: "/z-index", element: <Zindex /> },
+  { path: "/display", element: <Display /> },
 ];
 
 export default routes;

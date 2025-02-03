@@ -12,6 +12,7 @@ import { Home } from "./pages/Home.jsx";
 import { BoxModel } from "./pages/BoxModel.jsx";
 import { Zindex } from "./pages/Zindex.jsx";
 import { Display } from "./pages/Display.jsx";
+import { Transitions } from "./pages/Transitions.jsx";
 
 const routes = [
   { path: "/", element: <Home /> },
@@ -28,6 +29,7 @@ const routes = [
   { path: "/box-model", element: <BoxModel /> },
   { path: "/z-index", element: <Zindex /> },
   { path: "/display", element: <Display /> },
+  { path: "/transitions", element: <Transitions /> },
 ];
 
 export default routes;

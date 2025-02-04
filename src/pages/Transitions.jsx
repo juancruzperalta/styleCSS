@@ -45,19 +45,167 @@ export const Transitions = () => {
             </li>
           </ul>
         </pre>
-        <article className="mt-2 flex flex-col w-full h-full p-0 m-0 gap-4">
-          <div className="grid grid-cols-2 gap-4">
-            <div className="flex flex-col">
-              <span className="bg-yellow-300 text-black rounded-sm p-1 ">
-                transition-timing-function: ease;
-              </span>
-              <p>
-                The transition starts slowly, accelerates in the middle, and
-                slows down at the end.
-              </p>
+        <article className="mt-6 grid grid-cols-2 items-center justify-center w-full h-full p-0 m-0 gap-4">
+          <div className="flex flex-col  gap-2">
+            <span className="bg-green-300 text-black rounded-sm p-1 w-max">
+              transition-delay: 1s
+            </span>
+            <p className="text-[0.97rem]">The transition will wait 1second.</p>
+          </div>
+          <div className="bg-gray-600/60 rounded-sm p-2 shadow-lg">
+            <div className="bg-blue-500 font-semibold p-1 flex items-center justify-center w-[80px] h-[80px] rounded-full transition-all hover:translate-x-40 delay-[1s] duration-1000">
+              Hover Me
             </div>
-            <div className="bg-gray-300 p-2">
-              <div className="bg-blue-300 p-1 w-[80px] h-full">Hover Me</div>
+          </div>
+          <div className="flex flex-col  gap-2">
+            <span className="bg-green-300 text-black rounded-sm p-1 w-max">
+              transition-delay: 3s
+            </span>
+            <p className="text-[0.97rem]">The transition will wait 3 second.</p>
+          </div>
+          <div className="bg-gray-600/60 rounded-sm p-2 shadow-lg">
+            <div className="bg-blue-500 font-semibold p-1 flex items-center justify-center w-[80px] h-[80px] rounded-full transition-all hover:translate-x-40 delay-[3s] duration-1000">
+              Hover Me
+            </div>
+          </div>
+          <div className="flex flex-col  gap-2">
+            <span className="bg-red-300 text-black rounded-sm p-1 w-max">
+              transition-duration: 0s
+            </span>
+            <p className="text-[0.97rem]">
+              The transition will during 0second (instant)
+            </p>
+          </div>
+          <div className="bg-gray-600/60 rounded-sm p-2 shadow-lg">
+            <div className="bg-blue-500 font-semibold p-1 flex items-center justify-center w-[80px] h-[80px] rounded-full transition-all hover:translate-x-40 duration-0">
+              Hover Me
+            </div>
+          </div>
+          <div className="flex flex-col  gap-2">
+            <span className="bg-red-300 text-black rounded-sm p-1 w-max">
+              transition-duration: 3s
+            </span>
+            <p className="text-[0.97rem]">The transition will during 3second</p>
+          </div>
+          <div className="bg-gray-600/60 rounded-sm p-2 shadow-lg">
+            <div className="bg-blue-500 font-semibold p-1 flex items-center justify-center w-[80px] h-[80px] rounded-full transition-all hover:translate-x-40 duration-[3s]">
+              Hover Me
+            </div>
+          </div>
+          <div className="flex flex-col  gap-2">
+            <span className="bg-blue-300 text-black rounded-sm p-1 w-max">
+              transition-property: background
+            </span>
+            <p className="text-[0.97rem]">
+              The element will only transtion the background property
+            </p>
+          </div>
+          <div className="bg-gray-600/60 rounded-sm p-2 shadow-lg">
+            <div className="bg-blue-500 font-semibold p-1 flex items-center justify-center w-[80px] h-[80px] rounded-full transition-[background-color] hover:bg-green-500 duration-[3s]">
+              Hover Me
+            </div>
+          </div>
+          <div className="flex flex-col  gap-2">
+            <span className="bg-blue-300 text-black rounded-sm p-1 w-max">
+              transition-property: transform
+            </span>
+            <p className="text-[0.97rem]">
+              The element will only transtion the transform property
+            </p>
+          </div>
+          <div className="bg-gray-600/60 rounded-sm p-2 shadow-lg">
+            <div className="bg-blue-500 font-semibold p-1 flex items-center justify-center w-[80px] h-[80px] rounded-full transition-[transform] hover:translate-x-40 duration-[2s]">
+              Hover Me
+            </div>
+          </div>
+          <div className="flex flex-col gap-2">
+            <span className="bg-yellow-300 text-black rounded-sm p-1 w-max">
+              transition-timing-function: ease;
+            </span>
+            <p className="text-[0.97rem]">
+              The transition starts slowly, accelerates in the middle, and slows
+              down at the end.
+            </p>
+          </div>
+          <div className="bg-gray-600/60 rounded-sm p-2 shadow-lg">
+            <div className="bg-blue-500 font-semibold p-1 flex items-center justify-center w-[80px] h-[80px] rounded-full transition-all hover:translate-x-40 ease duration-1000">
+              Hover Me
+            </div>
+          </div>
+
+          <div className="flex flex-col gap-2">
+            <span className="bg-yellow-300 text-black rounded-sm p-1 w-max">
+              transition-timing-function: ease-in;
+            </span>
+            <p className="text-[0.97rem]">
+              Starts off slowly, with the transition speed increasing until
+              complete.
+            </p>
+          </div>
+          <div className="bg-gray-600/60 rounded-sm p-2 shadow-lg">
+            <div className="bg-blue-500 font-semibold p-1 flex items-center justify-center w-[80px] h-[80px] rounded-full transition-all hover:translate-x-40  ease-in duration-1000">
+              Hover Me
+            </div>
+          </div>
+
+          <div className="flex flex-col gap-2">
+            <span className="bg-yellow-300 text-black rounded-sm p-1 w-max">
+              transition-timing-function: ease-out;
+            </span>
+            <p className="text-[0.97rem]">
+              Starts transitioning quickly, slowing down as the transition
+              continues.
+            </p>
+          </div>
+          <div className="bg-gray-600/60 rounded-sm p-2 shadow-lg">
+            <div className="bg-blue-500 font-semibold p-1 flex items-center justify-center w-[80px] h-[80px] rounded-full transition-all hover:translate-x-40  ease-out duration-1000">
+              Hover Me
+            </div>
+          </div>
+
+          <div className="flex flex-col gap-2">
+            <span className="bg-yellow-300 text-black rounded-sm p-1 w-max">
+              transition-timing-function: ease-in-out;
+            </span>
+            <p className="text-[0.97rem]">
+              The transition starts quickly, and decelerates gradually until the
+              end
+            </p>
+          </div>
+          <div className="bg-gray-600/60 rounded-sm p-2 shadow-lg">
+            <div className="bg-blue-500 font-semibold p-1 flex items-center justify-center w-[80px] h-[80px] rounded-full transition-all hover:translate-x-40  ease-in-out duration-1000">
+              Hover Me
+            </div>
+          </div>
+
+          <div className="flex flex-col gap-2">
+            <span className="bg-yellow-300 text-black rounded-sm p-1 w-max">
+              transition-timing-function: linear;
+            </span>
+            <p className="text-[0.97rem]">
+              The transition has a constant speed.
+            </p>
+          </div>
+          <div className="bg-gray-600/60 rounded-sm p-2 shadow-lg">
+            <div className="bg-blue-500 font-semibold p-1 flex items-center justify-center w-[80px] h-[80px] rounded-full transition-all hover:translate-x-40 linear duration-1000">
+              Hover Me
+            </div>
+          </div>
+
+          <div className="flex flex-col gap-2">
+            <span className="bg-yellow-300 text-black rounded-sm p-1 w-max">
+              transition-timing-function: steps(4, end);
+            </span>
+            <p className="text-[0.97rem]">
+              You can define a specific number of steps before reaching the end.
+            </p>
+          </div>
+          <div className="bg-gray-600/60 rounded-sm p-2 shadow-lg">
+            <div
+              className="bg-blue-500 font-semibold p-1 flex items-center justify-center w-[80px] h-[80px] rounded-full transition-all hover:translate-x-40  duration-1000"
+              style={{ transitionTimingFunction: "steps(4, end)" }}
+            >
+              Hover Me
             </div>
           </div>
         </article>

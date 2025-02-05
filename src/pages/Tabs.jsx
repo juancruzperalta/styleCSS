@@ -55,7 +55,7 @@ export const Tabs = () => {
           already to copy in the footer.
         </h4>
         <article className="flex items-center justify-between w-full h-full p-0 m-0  ">
-          <div className="flex w-full mt-4 gap-8">
+          <div className="flex flex-col md:flex-row w-full mt-4 gap-8">
             <div className="flex flex-col justify-center h-full w-full">
               <h3 className="text-yellow-300 font-bold text-xl">Example 1</h3>
               <table className="border-2 w-full mt-4  bg-gray-900 p-2">

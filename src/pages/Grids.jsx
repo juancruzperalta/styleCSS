@@ -82,7 +82,7 @@ export const Grids = () => {
         <article className="bg-[#dadada81] p-4 rounded-md mt-6 mb-4">
           <h2 className="text-yellow-300 font-bold text-xl mb-4">Example</h2>
           <div className="flex flex-col lg:flex-row lg:justify-center lg:items-center gap-4 ">
-            <pre className="bg-[#1b1b1b] text-white p-4 rounded-lg shadow-lg">
+            <pre className="bg-[#1b1b1b] text-white p-4 rounded-lg shadow-lg overflow-x-auto">
               <code>
                 <span className="text-yellow-300">.container</span> {"{"}
                 <br />

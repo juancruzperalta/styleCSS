@@ -13,6 +13,8 @@ import { BoxModel } from "./pages/BoxModel.jsx";
 import { Zindex } from "./pages/Zindex.jsx";
 import { Display } from "./pages/Display.jsx";
 import { Transitions } from "./pages/Transitions.jsx";
+import { BoxShadows } from "./pages/BoxShadows.jsx";
+import { TextShadow } from "./pages/TextShadow.jsx";
 
 const routes = [
   { path: "/", element: <Home /> },
@@ -30,6 +32,8 @@ const routes = [
   { path: "/z-index", element: <Zindex /> },
   { path: "/display", element: <Display /> },
   { path: "/transitions", element: <Transitions /> },
+  { path: "/box-shadows", element: <BoxShadows /> },
+  { path: "/text-shadows", element: <TextShadow /> },
 ];
 
 export default routes;

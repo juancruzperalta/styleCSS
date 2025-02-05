@@ -9,7 +9,7 @@ export const Display = () => {
   }
   return (
     <section className="homeSection">
-      <div className="mb-8 border border-gray-600 rounded-lg p-6 bg-gray-800 w-full">
+      <div className="mb-8 border border-gray-600 rounded-lg p-6 bg-gray-800 w-full ">
         <h2 className="text-yellow-300 font-bold text-3xl mb-4 border-b-2 border-gray-600 pb-2 relative">
           Display
         </h2>
@@ -17,9 +17,9 @@ export const Display = () => {
           {" "}
           The display are show changes where you click in the button.
         </h4>
-        <article>
-          <pre className="bg-[#1b1b1b]  text-white p-4 rounded-lg shadow-lg">
-            <code>
+        <article className="max-w-full overflow-auto">
+          <pre className="bg-[#1b1b1b] text-white p-4 rounded-lg shadow-lg overflow-x-auto">
+            <code className="whitespace-pre">
               <span className="text-blue-300">display</span>: none;{" "}
               <span className="text-gray-500">
                 {" "}
@@ -39,8 +39,7 @@ export const Display = () => {
               <br />
               <span className="text-blue-300">display</span>: inline-block;{" "}
               <span className="text-gray-500">
-                /* formats the element as inline-level but also allows to <br />
-                set height/width like block-level element*/
+                /* formats the element as inline-level*/
               </span>
               <br />
               <span className="text-blue-300">display</span>: flex;{" "}
@@ -63,7 +62,7 @@ export const Display = () => {
         >
           <div className="flex flex-col w-full mt-4">
             <h2 className="text-yellow-300 font-bold text-xl mt-4">Examples</h2>
-            <article className="bg-[#dadada81] p-4 rounded-md mt-6 mb-4">
+            <article className="bg-[#dadada81] p-4 rounded-md mt-6 mb-4 ">
               <h2 className="text-yellow-300 font-bold text-xl">
                 Display None
               </h2>
@@ -93,7 +92,7 @@ export const Display = () => {
                 </div>
               </div>
             </article>
-            <article className="bg-[#dadada81] p-4 rounded-md mt-6 mb-4">
+            <article className="bg-[#dadada81] p-4 rounded-md mt-6 mb-4 ">
               <h2 className="text-yellow-300 font-bold text-xl">
                 Display Block
               </h2>
@@ -101,7 +100,7 @@ export const Display = () => {
                 Displays an element as a block element
               </h4>
               <div className="lg:flex-row lg:justify-center lg:items-center gap-4 mt-2 w-full">
-                <pre className="bg-[#1b1b1b]  text-white p-4 rounded-lg shadow-lg w-full">
+                <pre className="bg-[#1b1b1b]  text-white p-4 rounded-lg shadow-lg w-full overflow-x-auto">
                   <code>
                     <span className="text-yellow-300">.div</span> {"{"}
                     <br />
@@ -119,7 +118,7 @@ export const Display = () => {
                 </div>
               </div>
             </article>
-            <article className="bg-[#dadada81] p-4 rounded-md mt-6 mb-4">
+            <article className="bg-[#dadada81] p-4 rounded-md mt-6 mb-4 ">
               <h2 className="text-yellow-300 font-bold text-xl">
                 Display Inline
               </h2>
@@ -127,7 +126,7 @@ export const Display = () => {
                 Displays an element as a inline element
               </h4>
               <div className="lg:flex-row lg:justify-center lg:items-center gap-4 mt-2 w-full">
-                <pre className="bg-[#1b1b1b]  text-white p-4 rounded-lg shadow-lg w-full">
+                <pre className="bg-[#1b1b1b]  text-white p-4 rounded-lg shadow-lg w-full overflow-x-auto">
                   <code>
                     <span className="text-yellow-300">.div</span> {"{"}
                     <br />
@@ -145,7 +144,7 @@ export const Display = () => {
                 </div>
               </div>
             </article>
-            <article className="bg-[#dadada81] p-4 rounded-md mt-6 mb-4">
+            <article className="bg-[#dadada81] p-4 rounded-md mt-6 mb-4 ">
               <h2 className="text-yellow-300 font-bold text-xl">
                 Display Inline-Block
               </h2>
@@ -153,7 +152,7 @@ export const Display = () => {
                 Displays an element as a inline-block element
               </h4>
               <div className="lg:flex-row lg:justify-center lg:items-center gap-4 mt-2 w-full">
-                <pre className="bg-[#1b1b1b]  text-white p-4 rounded-lg shadow-lg w-full">
+                <pre className="bg-[#1b1b1b]  text-white p-4 rounded-lg shadow-lg w-full overflow-x-auto">
                   <code>
                     <span className="text-yellow-300">.div</span> {"{"}
                     <br />
@@ -171,7 +170,7 @@ export const Display = () => {
                 </div>
               </div>
             </article>
-            <article className="bg-[#dadada81] p-4 rounded-md mt-6 mb-4">
+            <article className="bg-[#dadada81] p-4 rounded-md mt-6 mb-4 ">
               <h2 className="text-yellow-300 font-bold text-xl">
                 Display Flex
               </h2>
@@ -179,7 +178,7 @@ export const Display = () => {
                 Displays an element as a flex element
               </h4>
               <div className="lg:flex-row lg:justify-center lg:items-center gap-4 mt-2 w-full">
-                <pre className="bg-[#1b1b1b]  text-white p-4 rounded-lg shadow-lg w-full">
+                <pre className="bg-[#1b1b1b]  text-white p-4 rounded-lg shadow-lg w-full overflow-x-auto">
                   <code>
                     <span className="text-yellow-300">.div</span> {"{"}
                     <br />
@@ -212,13 +211,13 @@ export const Display = () => {
                 </div>
               </div>
             </article>
-            <article className="bg-[#dadada81] p-4 rounded-md mt-6 mb-4">
+            <article className="bg-[#dadada81] p-4 rounded-md mt-6 mb-4 ">
               <h2 className="text-yellow-300 font-bold text-xl">
                 Display Grid
               </h2>
               <h4 className="text-gray-200">Displays an element as a grid.</h4>
               <div className="lg:flex-row lg:justify-center lg:items-center gap-4 mt-2 w-full">
-                <pre className="bg-[#1b1b1b]  text-white p-4 rounded-lg shadow-lg w-full">
+                <pre className="bg-[#1b1b1b]  text-white p-4 rounded-lg shadow-lg w-full overflow-x-auto">
                   <code>
                     <span className="text-yellow-300">.div</span> {"{"}
                     <br />

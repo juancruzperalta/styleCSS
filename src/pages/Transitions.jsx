@@ -14,13 +14,12 @@ export const Transitions = () => {
         <h2 className="text-yellow-300 font-bold text-2xl mt-4 mb-4">
           Properties
         </h2>
-        <pre className="bg-[#1b1b1b] text-white p-4 rounded-lg shadow-lg">
+        <pre className="bg-[#1b1b1b] text-white p-4 rounded-lg shadow-lg overflow-x-auto">
           <ul>
             <li>
               transition{" "}
               <span className="text-gray-500">
-                /*set a four propierties into the single propierty. (property
-                name|duration|easing function|delay)*/
+                /*set a four propierties into the single propierty.*/
               </span>
             </li>
             <li>
@@ -45,7 +44,7 @@ export const Transitions = () => {
             </li>
           </ul>
         </pre>
-        <article className="mt-6 grid grid-cols-2 items-center justify-center w-full h-full p-0 m-0 gap-4">
+        <article className="mt-6 grid grid-cols-[1fr,1fr] items-center justify-center w-full h-full p-0 m-0 gap-4 text-[0.9rem]">
           <div className="flex flex-col  gap-2">
             <span className="bg-green-300 text-black rounded-sm p-1 w-max">
               transition-delay: 1s
@@ -53,7 +52,7 @@ export const Transitions = () => {
             <p className="text-[0.97rem]">The transition will wait 1second.</p>
           </div>
           <div className="bg-gray-600/60 rounded-sm p-2 shadow-lg">
-            <div className="bg-blue-500 font-semibold p-1 flex items-center justify-center w-[80px] h-[80px] rounded-full transition-all hover:translate-x-40 delay-[1s] duration-1000">
+            <div className="bg-blue-500 font-semibold p-1 flex items-center justify-center w-[80px] h-[80px] rounded-full transition-all hover:translate-x-full delay-[1s] duration-1000">
               Hover Me
             </div>
           </div>
@@ -63,8 +62,8 @@ export const Transitions = () => {
             </span>
             <p className="text-[0.97rem]">The transition will wait 3 second.</p>
           </div>
-          <div className="bg-gray-600/60 rounded-sm p-2 shadow-lg">
-            <div className="bg-blue-500 font-semibold p-1 flex items-center justify-center w-[80px] h-[80px] rounded-full transition-all hover:translate-x-40 delay-[3s] duration-1000">
+          <div className="bg-gray-600/60 rounded-sm p-2 shadow-lg min-w-min">
+            <div className="bg-blue-500 font-semibold p-1 flex items-center justify-center w-[80px] h-[80px] rounded-full transition-all hover:translate-x-full delay-[3s] duration-1000">
               Hover Me
             </div>
           </div>
@@ -77,7 +76,7 @@ export const Transitions = () => {
             </p>
           </div>
           <div className="bg-gray-600/60 rounded-sm p-2 shadow-lg">
-            <div className="bg-blue-500 font-semibold p-1 flex items-center justify-center w-[80px] h-[80px] rounded-full transition-all hover:translate-x-40 duration-0">
+            <div className="bg-blue-500 font-semibold p-1 flex items-center justify-center w-[80px] h-[80px] rounded-full transition-all hover:translate-x-full duration-0">
               Hover Me
             </div>
           </div>
@@ -88,7 +87,7 @@ export const Transitions = () => {
             <p className="text-[0.97rem]">The transition will during 3second</p>
           </div>
           <div className="bg-gray-600/60 rounded-sm p-2 shadow-lg">
-            <div className="bg-blue-500 font-semibold p-1 flex items-center justify-center w-[80px] h-[80px] rounded-full transition-all hover:translate-x-40 duration-[3s]">
+            <div className="bg-blue-500 font-semibold p-1 flex items-center justify-center w-[80px] h-[80px] rounded-full transition-all hover:translate-x-full duration-[3s]">
               Hover Me
             </div>
           </div>
@@ -114,7 +113,7 @@ export const Transitions = () => {
             </p>
           </div>
           <div className="bg-gray-600/60 rounded-sm p-2 shadow-lg">
-            <div className="bg-blue-500 font-semibold p-1 flex items-center justify-center w-[80px] h-[80px] rounded-full transition-[transform] hover:translate-x-40 duration-[2s]">
+            <div className="bg-blue-500 font-semibold p-1 flex items-center justify-center w-[80px] h-[80px] rounded-full transition-[transform] hover:translate-x-full duration-[2s]">
               Hover Me
             </div>
           </div>
@@ -128,7 +127,7 @@ export const Transitions = () => {
             </p>
           </div>
           <div className="bg-gray-600/60 rounded-sm p-2 shadow-lg">
-            <div className="bg-blue-500 font-semibold p-1 flex items-center justify-center w-[80px] h-[80px] rounded-full transition-all hover:translate-x-40 ease duration-1000">
+            <div className="bg-blue-500 font-semibold p-1 flex items-center justify-center w-[80px] h-[80px] rounded-full transition-all hover:translate-x-full ease duration-1000">
               Hover Me
             </div>
           </div>
@@ -143,7 +142,7 @@ export const Transitions = () => {
             </p>
           </div>
           <div className="bg-gray-600/60 rounded-sm p-2 shadow-lg">
-            <div className="bg-blue-500 font-semibold p-1 flex items-center justify-center w-[80px] h-[80px] rounded-full transition-all hover:translate-x-40  ease-in duration-1000">
+            <div className="bg-blue-500 font-semibold p-1 flex items-center justify-center w-[80px] h-[80px] rounded-full transition-all hover:translate-x-full  ease-in duration-1000">
               Hover Me
             </div>
           </div>
@@ -158,7 +157,7 @@ export const Transitions = () => {
             </p>
           </div>
           <div className="bg-gray-600/60 rounded-sm p-2 shadow-lg">
-            <div className="bg-blue-500 font-semibold p-1 flex items-center justify-center w-[80px] h-[80px] rounded-full transition-all hover:translate-x-40  ease-out duration-1000">
+            <div className="bg-blue-500 font-semibold p-1 flex items-center justify-center w-[80px] h-[80px] rounded-full transition-all hover:translate-x-full  ease-out duration-1000">
               Hover Me
             </div>
           </div>
@@ -173,7 +172,7 @@ export const Transitions = () => {
             </p>
           </div>
           <div className="bg-gray-600/60 rounded-sm p-2 shadow-lg">
-            <div className="bg-blue-500 font-semibold p-1 flex items-center justify-center w-[80px] h-[80px] rounded-full transition-all hover:translate-x-40  ease-in-out duration-1000">
+            <div className="bg-blue-500 font-semibold p-1 flex items-center justify-center w-[80px] h-[80px] rounded-full transition-all hover:translate-x-full  ease-in-out duration-1000">
               Hover Me
             </div>
           </div>
@@ -187,7 +186,7 @@ export const Transitions = () => {
             </p>
           </div>
           <div className="bg-gray-600/60 rounded-sm p-2 shadow-lg">
-            <div className="bg-blue-500 font-semibold p-1 flex items-center justify-center w-[80px] h-[80px] rounded-full transition-all hover:translate-x-40 linear duration-1000">
+            <div className="bg-blue-500 font-semibold p-1 flex items-center justify-center w-[80px] h-[80px] rounded-full transition-all hover:translate-x-full linear duration-1000">
               Hover Me
             </div>
           </div>
@@ -202,19 +201,19 @@ export const Transitions = () => {
           </div>
           <div className="bg-gray-600/60 rounded-sm p-2 shadow-lg">
             <div
-              className="bg-blue-500 font-semibold p-1 flex items-center justify-center w-[80px] h-[80px] rounded-full transition-all hover:translate-x-40  duration-1000"
+              className="bg-blue-500 font-semibold p-1 flex items-center justify-center w-[80px] h-[80px] rounded-full transition-all hover:translate-x-full  duration-1000"
               style={{ transitionTimingFunction: "steps(4, end)" }}
             >
               Hover Me
             </div>
           </div>
         </article>
-        <article className="flex flex-col w-full h-full p-0 m-0 gap-4">
+        <article className="flex flex-col w-full h-full p-0 m-0 gap-4 text-[0.9rem]">
           <h2 className="text-yellow-300 font-bold text-2xl mt-4">Examples</h2>
           <div className="flex items-center gap-2">
             <pre className="bg-[#1b1b1b] text-white p-2 rounded-md shadow-lg">
               <code>
-                <span className="text-blue-300">transition</span>: width 1s
+                <span className="text-blue-300 ">transition</span>: width 1s
                 ease;
               </code>
             </pre>

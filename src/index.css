@@ -53,9 +53,8 @@ body {
   bottom: 0;
   padding: 10px;
   z-index: 5;
-  overflow-y: auto;
-  grid-area: sidebar;
   position: fixed;
+  grid-area: sidebar;
 }
 .sidebarStyle {
   border-right-width: 2px;
@@ -87,8 +86,13 @@ body {
   100% {
     transform: translateX(100%);
   }
+}
+@keyframes slideUp {
   0% {
-    transform: translateX(0%);
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(50%);
   }
 }
 

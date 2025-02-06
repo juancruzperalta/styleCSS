@@ -15,6 +15,7 @@ import { Display } from "./pages/Display.jsx";
 import { Transitions } from "./pages/Transitions.jsx";
 import { BoxShadows } from "./pages/BoxShadows.jsx";
 import { TextShadow } from "./pages/TextShadow.jsx";
+import { Animations } from "./pages/Animations.jsx";
 
 const routes = [
   { path: "/", element: <Home /> },
@@ -34,6 +35,7 @@ const routes = [
   { path: "/transitions", element: <Transitions /> },
   { path: "/box-shadows", element: <BoxShadows /> },
   { path: "/text-shadows", element: <TextShadow /> },
+  { path: "/animations", element: <Animations /> },
 ];
 
 export default routes;

@@ -11,7 +11,7 @@ export const CopyTheText = ({ codeText }) => {
     }, 1000);
   };
   return (
-    <div className="w-[100%] h-full relative flex flex-col mt-4 overflow-x-auto">
+    <div className="w-[100%] h-full relative flex flex-col mt-4 overflow-x-auto text-[0.9rem]">
       <pre className="bg-gray-900 text-white p-4 rounded w-full overflow-x-auto whitespace-pre mt-4 mb-4 ">
         <code>{codeText}</code>
       </pre>

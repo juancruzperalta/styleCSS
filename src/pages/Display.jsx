@@ -13,12 +13,9 @@ export const Display = () => {
         <h2 className="text-yellow-300 font-bold text-3xl mb-4 border-b-2 border-gray-600 pb-2 relative">
           Display
         </h2>
-        <h4 className="text-xl">
-          {" "}
-          The display are show changes where you click in the button.
-        </h4>
+        <h4> The display are show changes where you click in the button.</h4>
         <article className="max-w-full overflow-auto">
-          <pre className="bg-[#1b1b1b] text-white p-4 rounded-lg shadow-lg overflow-x-auto">
+          <pre className="bg-[#1b1b1b] text-white p-4 rounded-lg shadow-lg overflow-x-auto text-[0.9rem]">
             <code className="whitespace-pre">
               <span className="text-blue-300">display</span>: none;{" "}
               <span className="text-gray-500">
@@ -69,14 +66,14 @@ export const Display = () => {
               <h4 className="text-gray-200">
                 The element is completely removed
               </h4>
-              <div className="grid grid-cols-[0.15fr,1fr,1fr] lg:flex-row lg:justify-center lg:items-center gap-4 mt-2 ">
+              <div className="grid grid-cols-1 md:grid-cols-[0.15fr,1fr,1fr] lg:flex-row lg:justify-center lg:items-center gap-4 mt-2 ">
                 <button
                   className="bg-yellow-300 p-2 rounded-lg border-none text-black h-full"
                   onClick={addDisplayNone}
                 >
                   Click
                 </button>
-                <pre className="bg-[#1b1b1b]  text-white p-4 rounded-lg shadow-lg">
+                <pre className="bg-[#1b1b1b]  text-white p-4 rounded-lg shadow-lg overflow-x-auto text-[0.9rem]">
                   <code>
                     <span className="text-yellow-300">.div</span> {"{"}
                     <br />
@@ -100,7 +97,7 @@ export const Display = () => {
                 Displays an element as a block element
               </h4>
               <div className="lg:flex-row lg:justify-center lg:items-center gap-4 mt-2 w-full">
-                <pre className="bg-[#1b1b1b]  text-white p-4 rounded-lg shadow-lg w-full overflow-x-auto">
+                <pre className="bg-[#1b1b1b]  text-white p-4 rounded-lg shadow-lg w-full overflow-x-auto text-[0.9rem]">
                   <code>
                     <span className="text-yellow-300">.div</span> {"{"}
                     <br />
@@ -126,7 +123,7 @@ export const Display = () => {
                 Displays an element as a inline element
               </h4>
               <div className="lg:flex-row lg:justify-center lg:items-center gap-4 mt-2 w-full">
-                <pre className="bg-[#1b1b1b]  text-white p-4 rounded-lg shadow-lg w-full overflow-x-auto">
+                <pre className="bg-[#1b1b1b]  text-white p-4 rounded-lg shadow-lg w-full overflow-x-auto text-[0.9rem]">
                   <code>
                     <span className="text-yellow-300">.div</span> {"{"}
                     <br />
@@ -152,7 +149,7 @@ export const Display = () => {
                 Displays an element as a inline-block element
               </h4>
               <div className="lg:flex-row lg:justify-center lg:items-center gap-4 mt-2 w-full">
-                <pre className="bg-[#1b1b1b]  text-white p-4 rounded-lg shadow-lg w-full overflow-x-auto">
+                <pre className="bg-[#1b1b1b]  text-white p-4 rounded-lg shadow-lg w-full overflow-x-auto text-[0.9rem]">
                   <code>
                     <span className="text-yellow-300">.div</span> {"{"}
                     <br />
@@ -178,7 +175,7 @@ export const Display = () => {
                 Displays an element as a flex element
               </h4>
               <div className="lg:flex-row lg:justify-center lg:items-center gap-4 mt-2 w-full">
-                <pre className="bg-[#1b1b1b]  text-white p-4 rounded-lg shadow-lg w-full overflow-x-auto">
+                <pre className="bg-[#1b1b1b]  text-white p-4 rounded-lg shadow-lg w-full overflow-x-auto text-[0.9rem]">
                   <code>
                     <span className="text-yellow-300">.div</span> {"{"}
                     <br />
@@ -217,7 +214,7 @@ export const Display = () => {
               </h2>
               <h4 className="text-gray-200">Displays an element as a grid.</h4>
               <div className="lg:flex-row lg:justify-center lg:items-center gap-4 mt-2 w-full">
-                <pre className="bg-[#1b1b1b]  text-white p-4 rounded-lg shadow-lg w-full overflow-x-auto">
+                <pre className="bg-[#1b1b1b]  text-white p-4 rounded-lg shadow-lg w-full overflow-x-auto text-[0.9rem]">
                   <code>
                     <span className="text-yellow-300">.div</span> {"{"}
                     <br />

@@ -41,8 +41,8 @@ export const Grids = () => {
         <h2 className="text-yellow-300 font-bold text-3xl mb-4 border-b-2 border-gray-600 pb-2">
           Grids
         </h2>
-        <h4 className="text-lg">Define a display grid in the style css.</h4>
-        <pre className="bg-[#1b1b1b] text-white p-4 rounded-lg shadow-lg mb-6 mt-4">
+        <h4 className="text-lg ">Define a display grid in the style css.</h4>
+        <pre className="bg-[#1b1b1b] p-4 rounded-lg shadow-lg mb-6 mt-4 text-[0.9rem]">
           <code>
             <span className="text-yellow-300">.container</span> {"{"} <br />
             &nbsp;&nbsp;<span className="text-blue-300">display</span>: grid;
@@ -56,25 +56,18 @@ export const Grids = () => {
           <strong className="text-yellow-300">1fr</strong> to make use of all
           size
         </h4>
-        <pre className="bg-[#1b1b1b] text-white p-4 rounded-lg shadow-lg mb-6 mt-4">
+        <pre className="bg-[#1b1b1b] text-white p-4 rounded-lg shadow-lg mb-6 mt-4 text-[0.9rem] overflow-x-auto">
           <code>
             <span className="text-yellow-300">.container</span> {"{"} <br />
             &nbsp;&nbsp;
             <span className="text-blue-300">grid-template-columns</span>:&nbsp;
             <span className="text-gray-500 ">
-              <br />
-              /** 1fr 1fr,
-              <br /> minmax(200px, 1fr), <br />
-              repeat(5, 1fr) **/
+              /** 1fr 1fr, minmax(200px, 1fr), repeat(5, 1fr) **/
             </span>
             <br />
             &nbsp;&nbsp;
             <span className="text-blue-300">grid-template-rows</span>:&nbsp;
-            <span className="text-gray-500 ">
-              <br />
-              /** 1fr 1fr,
-              <br /> 200px 1fr**/
-            </span>
+            <span className="text-gray-500 ">/** 1fr 1fr, 200px 1fr**/</span>
             <br />
             {"}"}
           </code>
@@ -82,7 +75,7 @@ export const Grids = () => {
         <article className="bg-[#dadada81] p-4 rounded-md mt-6 mb-4">
           <h2 className="text-yellow-300 font-bold text-xl mb-4">Example</h2>
           <div className="flex flex-col lg:flex-row lg:justify-center lg:items-center gap-4 ">
-            <pre className="bg-[#1b1b1b] text-white p-4 rounded-lg shadow-lg overflow-x-auto">
+            <pre className="bg-[#1b1b1b] text-white p-4 rounded-lg shadow-lg text-[0.9rem] overflow-x-auto">
               <code>
                 <span className="text-yellow-300">.container</span> {"{"}
                 <br />
@@ -100,7 +93,7 @@ export const Grids = () => {
                 {"}"}
               </code>
             </pre>
-            <div className="grid w-[400px] h-[160px]  grid-cols-3 grid-rows-2 gap-1 text-black">
+            <div className="grid  h-[160px]  grid-cols-3 grid-rows-2 gap-1 text-black w-full">
               <div className="bg-blue-200 w-full h-full p-2">1</div>
               <div className="bg-blue-300 w-full h-full p-2">2</div>
               <div className="bg-blue-400 w-full h-full p-2">3</div>

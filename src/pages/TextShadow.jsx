@@ -15,7 +15,7 @@ export const TextShadow = () => {
           </code>
         </pre>
 
-        <article className="mt-6 grid grid-cols-[1fr,1fr] items-center justify-center w-full h-full p-0 m-0 gap-8 text-[1rem]">
+        <article className="mt-6 grid grid-cols-1 md:grid-cols-[1fr,1fr] items-center justify-center w-full h-full p-0 m-0 gap-8 text-[1rem]">
           <div className="flex flex-col  gap-2">
             <span className="bg-red-300 text-black rounded-sm p-1 w-max">
               text-shadow: 2px 2px 4px red;

@@ -5,7 +5,7 @@ export const BoxModel = () => {
         <h2 className="text-yellow-300 font-bold text-3xl mb-4 border-b-2 border-gray-600 pb-2">
           Box Model
         </h2>
-        <h4 className="text-xl">
+        <h4>
           {" "}
           This is a demostration how to used a box model in css, the box-model
           consists of: content, padding, margin and borders. The image below
@@ -47,7 +47,7 @@ export const BoxModel = () => {
             </div>
             <div>
               <h4 className="text-xl text-yellow-300 font-bold">Example:</h4>
-              <pre className="bg-[#1b1b1b] text-white p-4 rounded-lg shadow-lg">
+              <pre className="bg-[#1b1b1b] text-white p-4 rounded-lg overflow-x-auto text-[0.9rem] shadow-lg">
                 <code>
                   <span className="text-yellow-300">.div</span> {"{"}
                   <br />

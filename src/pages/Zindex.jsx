@@ -38,7 +38,7 @@ img{
         <h2 className="text-yellow-300 font-bold text-3xl mb-4 border-b-2 border-gray-600 pb-2 relative">
           Z-index
         </h2>
-        <h4 className="text-xl">
+        <h4>
           {" "}
           This is a demostration how to used a z-index in css, the z-index
           consists in position the element about other element.
@@ -49,7 +49,7 @@ img{
         >
           <div className="flex flex-col w-full mt-4 gap-8">
             <div className="flex flex-col justify-between h-full w-full">
-              <pre className="bg-[#1b1b1b] text-white p-4 rounded-lg shadow-lg">
+              <pre className="overflow-x-auto text-[0.9rem] bg-[#1b1b1b] text-white p-4 rounded-lg shadow-lg">
                 <code>
                   <span className="text-yellow-300">z-index</span>:
                   <span className="text-blue-300">
@@ -66,7 +66,7 @@ img{
                 className="z-[1] w-[300px] h-[300px] relative opacity-70 rounded-md"
                 alt="Golden retriever"
               />
-              <p className="z-[2] text-gray absolute bottom-0  font-bold p-2">
+              <p className="text-[0.8rem] md:text-[1rem] z-[2] text-gray absolute bottom-0  font-bold p-2">
                 Because the image has a z-index of 1 and the parraf has a
                 z-index of 2, this is superimposed
               </p>
@@ -77,7 +77,7 @@ img{
                 className="z-[1] w-[300px] h-[300px] relative opacity-70 rounded-md"
                 alt="Golden retriever"
               />
-              <p className="z-[2] text-gray absolute bottom-0  font-bold p-2">
+              <p className="text-[0.8rem] md:text-[1rem] z-[2] text-gray absolute bottom-0  font-bold p-2">
                 Because the image has a z-index of 1 and the parraf has a
                 z-index of 2, this is superimposed
               </p>

@@ -26,8 +26,7 @@ const categories = [
     items: [
       { name: "Transitions", href: "/transitions" },
       { name: "Animations", href: "/animations" },
-      { name: "X Hover Effects", href: "/hover-effects" },
-      { name: "X Modals", href: "/modals" },
+      { name: "Modals", href: "/modals" },
       { name: "Accordions", href: "/accordions" },
       { name: "X Scroll Effects", href: "/scroll-effects" },
     ],

@@ -17,6 +17,7 @@ import { BoxShadows } from "./pages/BoxShadows.jsx";
 import { TextShadow } from "./pages/TextShadow.jsx";
 import { Animations } from "./pages/Animations.jsx";
 import { Modals } from "./pages/Modals.jsx";
+import { ScrollEffects } from "./pages/ScrollEffects.jsx";
 
 const routes = [
   { path: "/", element: <Home /> },
@@ -38,6 +39,7 @@ const routes = [
   { path: "/text-shadows", element: <TextShadow /> },
   { path: "/animations", element: <Animations /> },
   { path: "/modals", element: <Modals /> },
+  { path: "/scroll-effects", element: <ScrollEffects /> },
 ];
 
 export default routes;

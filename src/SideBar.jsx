@@ -28,7 +28,7 @@ const categories = [
       { name: "Animations", href: "/animations" },
       { name: "Modals", href: "/modals" },
       { name: "Accordions", href: "/accordions" },
-      { name: "X Scroll Effects", href: "/scroll-effects" },
+      { name: "Scroll Effects", href: "/scroll-effects" },
     ],
   },
   {

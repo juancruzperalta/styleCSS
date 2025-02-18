@@ -39,7 +39,7 @@ const categories = [
       { name: "Cards", href: "/cards" },
       { name: "Alerts", href: "/alerts" },
       { name: "Progress Bar", href: "/progress-bar" },
-      { name: "X Loaders", href: "/loaders" },
+      { name: "Loaders", href: "/loaders" },
     ],
   },
 ];

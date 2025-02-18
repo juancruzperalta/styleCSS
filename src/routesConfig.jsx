@@ -19,6 +19,7 @@ import { Animations } from "./pages/Animations.jsx";
 import { Modals } from "./pages/Modals.jsx";
 import { ScrollEffects } from "./pages/ScrollEffects.jsx";
 import { ProgressBar } from "./pages/ProgressBar.jsx";
+import { Loaders } from "./pages/Loaders.jsx";
 
 const routes = [
   { path: "/", element: <Home /> },
@@ -42,6 +43,7 @@ const routes = [
   { path: "/modals", element: <Modals /> },
   { path: "/scroll-effects", element: <ScrollEffects /> },
   { path: "/progress-bar", element: <ProgressBar /> },
+  { path: "/loaders", element: <Loaders /> },
 ];
 
 export default routes;

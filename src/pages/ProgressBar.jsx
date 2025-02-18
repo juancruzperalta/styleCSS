@@ -122,10 +122,9 @@ const scrollbarUpdate = () => {
           Progress Bar
         </h2>
         <h4 className="text-xl">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi
-          iusto saepe voluptatem libero animi doloribus quidem nisi, vitae
-          perferendis temporibus veritatis eveniet eum quis officiis odio soluta
-          quas placeat? Repudiandae!
+          A normal &lt;div&gt; element can be used for a progress bar. The
+          element div has simulated a progress bar, to use click in the button
+          to completed 100%.
         </h4>
 
         <article className="mt-6 grid grid-cols-1 items-center justify-center w-full h-full p-0 m-0 gap-3 text-[1rem] ">

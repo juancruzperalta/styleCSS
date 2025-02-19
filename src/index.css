@@ -63,11 +63,11 @@ body {
   justify-content: center;
   align-items: center;
   height: 100%;
+}
+.homeSection {
   padding: 1rem;
   padding-top: 0.4rem;
   padding-bottom: 0.2rem;
-}
-.homeSection {
   display: flex;
   flex-direction: column;
   margin-top: 2rem;
@@ -118,7 +118,7 @@ body {
       "header header"
       "sidebar content";
   }
-  .content {
+  .homeSection {
     padding: 2rem;
     padding-top: 0.7rem;
   }

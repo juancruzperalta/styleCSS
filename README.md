@@ -4,21 +4,17 @@
 
 ## Current Update...
 
-### Version 24/11/2024
-
-- Styled the base of page..
-
-### Version 30/11/2024
+### Version 1.1
 
 - Style the grid of the page
 - Add react routes.
 - Style the sidebar and header
-- Starting the style the content in Accordions.
+- Add pages to information CSS.
+- Add home in the page.
+- Add responsive design..
 
 ## Upcoming Features...
 
-- style content in more pages...
-
 ## Notes...
 
-- Juan: I starting the project...
+- Juan: Home version 1.1...

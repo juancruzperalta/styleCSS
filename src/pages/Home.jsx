@@ -1,19 +1,23 @@
 export const Home = () => {
   return (
     <section
-      className="w-full h-full  m-0 p-0 relative"
-      style={{
-        backgroundImage: "url('/styleCSS.jpg')",
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-      }}
+      className="
+      w-full md:h-full h-screen m-0 p-0 relative bg-none md:bg-[url('/styleCSS.jpg')] md:bg-cover md:bg-center"
     >
-      <article className="flex items-center justify-center absolute top-0 left-0 right-0 bottom-0">
-        <div className="bg-green-500 w-[50%] h-10 text-center">
-          CSS Information
+      <article className="flex flex-col md:flex-row items-center justify-center md:absolute top-0 left-0 right-0 bottom-0 gap-8 md:gap-0 mt-4 md:mt-0">
+        <div className="flex flex-col items-center justify-center mr-4 gap-8">
+          <h2 className="bg-[#1b1b1b] text-3xl p-3 font-bold  rounded-sm">
+            CSS Information
+          </h2>
+          <div className="pointer text-[#1b1b1b] text-xl font-semibold rounded-sm">
+            <span className="border-r-2 border-gray-700 p-2 bg-[#f8f6f6]">
+              Version 1.1
+            </span>
+            <span className="p-2 bg-[#f8f6f6]">2025</span>
+          </div>
         </div>
         <div>
-          <pre className="bg-[#1b1b1ba2] text-white p-4 rounded-lg overflow-x-auto text-[0.9rem] shadow-lg">
+          <pre className="bg-[#1b1b1be5] text-white p-3 rounded-lg overflow-x-auto text-[1rem] shadow-lg">
             <code>
               <span className="text-yellow-300">.styleCSS</span> {"{"}
               <br />

@@ -153,7 +153,7 @@ const scrollbarUpdate = () => {
             </div>
           </div>
           <h4 className="text-yellow-300 font-bold text-xl">Example</h4>
-          <pre className="bg-[#1b1b1b] text-white p-4 rounded-lg shadow-lg mt-2">
+          <pre className="bg-[#1b1b1b] text-white p-4 rounded-lg shadow-lg mt-2 overflow-x-auto">
             <code>
               <span className="text-blue-300">
                 &lt;div{" "}
